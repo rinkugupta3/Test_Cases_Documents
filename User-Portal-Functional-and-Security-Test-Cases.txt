@@ -1,0 +1,17 @@
+Test cases covering registration, login, password changes, email verification,
+backend logging, and data validation.
+
+################################################################################
+This table covers:
+
+Basic scenarios: Registration, login, profile updates, email notifications, and password reset.
+
+Security tests: Failed login attempts, email format validation, and inactivity-based auto-logout.
+
+Backend logging and database validation: Ensures accurate logs and consistent database states.
+
+Resilience and load testing: Tests system behavior under network issues and heavy traffic.
+
+Usability: Clear error messages and a friendly user experience.
+
+##################################################################################
