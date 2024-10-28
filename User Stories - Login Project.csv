@@ -1,31 +1,31 @@
-Title,Acceptance Criteria,Priority,Work Item Type,Severity,Assigned To,Area Path,Iteration Path
-"As a new user, I want to register successfully, so that I can access the platform.","- User fills out all required fields and submits.
-- Registration is successful, and a verification email is sent.
-- Registration logs are created.",High,User Story,High,-,ProjectName\Registration,-
-"As a user, I want to see validation messages if required registration fields are left blank, so that I am informed of missing information.","- User submits registration form with empty mandatory fields.
-- User receives appropriate validation messages.",High,User Story,High,-,ProjectName\Registration,-
-"As a registered user, I want to log in successfully using valid credentials, so that I can access my account.","- User enters valid credentials and logs in.
-- Login is successful, directing user to home page.",High,User Story,High,-,ProjectName\Login,-
-"As a user, I want to receive an error message when entering an incorrect password, so that I know my login attempt was unsuccessful.","- User enters incorrect password.
-- User receives an 'Incorrect password' message.
-- Failed login attempt is logged.",High,User Story,High,-,ProjectName\Login,-
-"As a user who has forgotten my password, I want to reset it via email, so that I can regain access to my account.","- User requests a password reset by entering their email.
-- User receives reset email and can update their password.",Medium,User Story,Medium,-,ProjectName\Account Recovery,-
-"As a user, I want to update my profile information, so that my account information stays current.","- User updates profile details and saves.
-- Profile update is successful and reflects in the database.
-- Email notification for profile change is sent.",Medium,User Story,Medium,-,ProjectName\Account,-
-"As a system administrator, I want all user registration and login attempts to be logged, so that I can monitor system activity.","- New user registration, failed login attempts, and other user actions are logged with details (e.g., timestamp, username, IP).",Medium,User Story,Medium,-,ProjectName\Monitoring,-
-"As a user, I want my registration process to handle network failures gracefully, so that no partial data is saved if the connection drops.","- User begins registration, then experiences a network disconnect.
-- Registration either resumes correctly or fails without saving incomplete data.",Medium,User Story,Medium,-,ProjectName\Registration,-
-"As a user, I want to be notified if my email format is invalid during registration, so that I can correct it before submitting.","- User enters an invalid email format and submits.
-- User receives an error message for the invalid email.",High,User Story,High,-,ProjectName\Registration,-
-"As a user, I want the option to delete my account, so that I can remove my data from the platform if desired.","- User requests account deletion.
-- User receives a confirmation email for deletion.",Low,User Story,Low,-,ProjectName\Account,-
-"As an operations team member, I want the platform to support high traffic loads during registration, so that performance remains unaffected during peak times.",- Multiple users register simultaneously without significant performance delays.,High,User Story,High,-,ProjectName\Performance,-
-"As a user, I want clear error messages when I make mistakes during login or registration, so that I can understand and correct my actions.","- User makes common mistakes (e.g., empty fields or incorrect credentials).
-- System displays clear and user-friendly error messages.",Low,User Story,Low,-,ProjectName\Feedback,-
-"As a logged-in user, I want to log out securely, so that my session is terminated properly.","- User logs out from the portal.
-- User cannot access secured pages after logging out.",Medium,User Story,Medium,-,ProjectName\Security,-
-"As a user, I want to be able to log in on multiple devices, depending on platform requirements, so that I can access my account on different devices as permitted.","- User logs in on Device 1, then on Device 2.
-- User either maintains both sessions or is logged out of Device 1 (per requirement).",Low,User Story,Low,-,ProjectName\Login,-
-"As a user, I want to be logged out automatically after inactivity, so that my session is secure if I forget to log out.",- User is logged out automatically after a set period of inactivity.,Medium,User Story,Medium,-,ProjectName\Security,-
+Title,Acceptance;Criteria,Priority,Work;Item;Type,Severity,Assigned;To,Area;Path,Iteration;Path;;;;;;;;;;;;;;;;;;;
+"As a new user, I want to register successfully, so that I can access the platform.,""-";User;fills;out;all;required;fields;and;"submits.
+-";Registration;is;successful,;and;a;verification;email;is;"sent.
+-";Registration;logs;are;"created."",High,User";Story,High,-,ProjectName\Registration,-;;;
+"As a user, I want to see validation messages if required registration fields are left blank, so that I am informed of missing information.,""-";User;submits;registration;form;with;empty;mandatory;"fields.
+-";User;receives;appropriate;validation;"messages."",High,User";Story,High,-,ProjectName\Registration,-;;;;;;;;;;;
+"As a registered user, I want to log in successfully using valid credentials, so that I can access my account.,""-";User;enters;valid;credentials;and;logs;"in.
+-";Login;is;successful,;directing;user;to;home;"page."",High,User";Story,High,-,ProjectName\Login,-;;;;;;;;;
+"As a user, I want to receive an error message when entering an incorrect password, so that I know my login attempt was unsuccessful.,""-";User;enters;incorrect;"password.
+-";User;receives;an;Incorrect;password';"message.
+-";Failed;login;attempt;is;"logged."",High,User";Story,High,-,ProjectName\Login,-;;;;;;;;;
+"As a user who has forgotten my password, I want to reset it via email, so that I can regain access to my account.,""-";User;requests;a;password;reset;by;entering;their;"email.
+-";User;receives;reset;email;and;can;update;their;"password."",Medium,User";Story,Medium,-,ProjectName\Account;Recovery,-;;;;;
+"As a user, I want to update my profile information, so that my account information stays current.,""-";User;updates;profile;details;and;"saves.
+-";Profile;update;is;successful;and;reflects;in;the;"database.
+-";Email;notification;for;profile;change;is;"sent."",Medium,User";Story,Medium,-,ProjectName\Account,-;;
+"As a system administrator, I want all user registration and login attempts to be logged, so that I can monitor system activity.,""-";New;user;registration,;failed;login;attempts,;and;other;user;actions;are;logged;with;details;(e.g.,;timestamp,;username,;"IP)."",Medium,User";Story,Medium,-,ProjectName\Monitoring,-;;;;;;
+"As a user, I want my registration process to handle network failures gracefully, so that no partial data is saved if the connection drops.,""-";User;begins;registration,;then;experiences;a;network;"disconnect.
+-";Registration;either;resumes;correctly;or;fails;without;saving;incomplete;"data."",Medium,User";Story,Medium,-,ProjectName\Registration,-;;;;;;
+"As a user, I want to be notified if my email format is invalid during registration, so that I can correct it before submitting.,""-";User;enters;an;invalid;email;format;and;"submits.
+-";User;receives;an;error;message;for;the;invalid;"email."",High,User";Story,High,-,ProjectName\Registration,-;;;;;;;
+"As a user, I want the option to delete my account, so that I can remove my data from the platform if desired.,""-";User;requests;account;"deletion.
+-";User;receives;a;confirmation;email;for;"deletion."",Low,User";Story,Low,-,ProjectName\Account,-;;;;;;;;;;;;;
+As an operations team member, I want the platform to support high traffic loads during registration, so that performance remains unaffected during peak times.,-;Multiple;users;register;simultaneously;without;significant;performance;delays.,High,User;Story,High,-,ProjectName\Performance,-;;;;;;;;;;;;;;;;
+"As a user, I want clear error messages when I make mistakes during login or registration, so that I can understand and correct my actions.,""-";User;makes;common;mistakes;(e.g.,;empty;fields;or;incorrect;"credentials).
+-";System;displays;clear;and;user-friendly;error;"messages."",Low,User";Story,Low,-,ProjectName\Feedback,-;;;;;;;
+"As a logged-in user, I want to log out securely, so that my session is terminated properly.,""-";User;logs;out;from;the;"portal.
+-";User;cannot;access;secured;pages;after;logging;"out."",Medium,User";Story,Medium,-,ProjectName\Security,-;;;;;;;;;;
+"As a user, I want to be able to log in on multiple devices, depending on platform requirements, so that I can access my account on different devices as permitted.,""-";User;logs;in;on;Device;1,;then;on;Device;"2.
+-";User;either;maintains;both;sessions;or;is;logged;out;of;Device;1;(per;"requirement)."",Low,User";Story,Low,-,ProjectName\Login,-
+As a user, I want to be logged out automatically after inactivity, so that my session is secure if I forget to log out.,-;User;is;logged;out;automatically;after;a;set;period;of;inactivity.,Medium,User;Story,Medium,-,ProjectName\Security,-;;;;;;;;;;;;;
